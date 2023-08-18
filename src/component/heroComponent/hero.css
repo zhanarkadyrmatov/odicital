@@ -1,0 +1,27 @@
+.hero h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.hero p {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 185%;
+  margin: 24px 450px 74px;
+}
+
+.hero button {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 185%;
+  letter-spacing: 1px;
+  border-radius: 74px;
+  background: #5699e8;
+  padding: 15 60px;
+}

@@ -1,0 +1,30 @@
+#header {
+  /* position: fixed; */
+  top: 0;
+}
+.header {
+  padding: 26px 0;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 114px;
+  list-style: none;
+}
+
+.header_nav ul li a {
+  /* color: #fff; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
