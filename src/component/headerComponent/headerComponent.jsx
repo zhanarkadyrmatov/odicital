@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../image/logo.png";
+import Logo from "../../image/oracle.png";
 import "./header.css";
 
 function headerComponent() {
