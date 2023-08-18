@@ -26,12 +26,6 @@ function headerComponent() {
                 <a href="#">+996 700 453 456</a>
               </li>
             </ul>
-            <button>guhjnkmd;f</button>
-<<<<<<< HEAD
-
-=======
-            <button>fvgbhnj</button>
->>>>>>> f1c9ad4bd9304ee2de7b39c46e9a653c360e9cec
           </div>
         </div>
       </div>
