@@ -27,7 +27,6 @@ function headerComponent() {
               </li>
             </ul>
             <button>guhjnkmd;f</button>
-
           </div>
         </div>
       </div>
