@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../image/oracle.png";
+import { Link } from "react-router-dom";
 import "./header.css";
 
 function headerComponent() {
@@ -11,7 +12,7 @@ function headerComponent() {
             <img src={Logo} alt="" />
             <ul className="">
               <li>
-                <a href="#">Главная</a>
+                <Link to="/home">Главная</Link>
               </li>
               <li>
                 <a href="#">О компании</a>
@@ -26,12 +27,6 @@ function headerComponent() {
                 <a href="#">+996 700 453 456</a>
               </li>
             </ul>
-            <button>guhjnkmd;f</button>
-<<<<<<< HEAD
-
-=======
-            <button>fvgbhnj</button>
->>>>>>> f1c9ad4bd9304ee2de7b39c46e9a653c360e9cec
           </div>
         </div>
       </div>
