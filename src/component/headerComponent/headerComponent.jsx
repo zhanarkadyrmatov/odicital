@@ -15,7 +15,7 @@ function headerComponent() {
                 <Link to="/home">Главная</Link>
               </li>
               <li>
-                <a href="#">О компании</a>
+                <Link to="#">О компании</Link>
               </li>
               <li>
                 <a href="#">Услуги</a>
