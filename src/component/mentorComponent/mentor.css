@@ -1,0 +1,41 @@
+.mentor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 74px 0 150px;
+}
+
+.mentor_blog {
+  text-align: center;
+}
+.mentor_blog img {
+  width: 100%;
+}
+
+.mentor_blog h2 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 185%;
+}
+
+.mentor_blog p {
+  color: rgba(0, 0, 0, 0.78);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 185%;
+}
+@media only screen and (max-width: 1140px) {
+  .mentor {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .mentor {
+    display: grid;
+    grid-template-columns: 12fr;
+  }
+}

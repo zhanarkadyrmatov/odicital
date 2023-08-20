@@ -1,16 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../../image/oracle.png";
 import { Link } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { BsXLg } from "react-icons/bs";
 import "./header.css";
 
-function headerComponent() {
+function HeaderComponent() {
+  const [burger, setBurger] = useState(false);
+
   return (
     <div id="header">
       <div className="container">
         <div className="header">
           <div className="header_nav">
-            <img src={Logo} alt="" />
-            <ul className="">
+            <img className="header_logo" src={Logo} alt="" />
+
+            <ul className={burger ? "header_item" : "header_link"}>
               <li>
                 <Link to="/home">Главная</Link>
               </li>
@@ -27,6 +32,14 @@ function headerComponent() {
                 <a href="#">+996 700 453 456</a>
               </li>
             </ul>
+            {burger ? (
+              <BsXLg onClick={() => setBurger(false)} className="header_menu" />
+            ) : (
+              <GiHamburgerMenu
+                onClick={() => setBurger(true)}
+                className="header_menu"
+              />
+            )}
           </div>
         </div>
       </div>
@@ -34,4 +47,4 @@ function headerComponent() {
   );
 }
 
-export default headerComponent;
+export default HeaderComponent;
