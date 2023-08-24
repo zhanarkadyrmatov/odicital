@@ -41,7 +41,12 @@ function MentorComponent() {
         <div className="mentor">
           {ITEMS.map((e) => {
             return (
-              <div key={e.id} className="mentor_blog">
+              <div
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-center"
+                key={e.id}
+                className="mentor_blog"
+              >
                 <img src={e.img} alt="" />
                 <h2>{e.title}</h2>
                 <p>{e.text}</p>

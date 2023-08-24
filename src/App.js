@@ -1,5 +1,5 @@
 import "./App.css";
-import Page from "./page/page";
+import Home from "./page/Home";
 import Main from "./page/main";
 import { Routes, Route } from "react-router-dom";
 
@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       {/* <Page /> */}
       <Routes>
-        <Route path="/" element={<Page />} />
-        <Route path="/home" element={<Main />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/main" element={<Main />} />
       </Routes>
     </div>
   );

@@ -16,11 +16,11 @@ function AboutComponent() {
         <h1 className="text">Quis pretium vitae suspendisse.</h1>
         <h2 className="title">О нас</h2>
         <div className="about">
-          <div className="about_img">
+          <div data-aos="fade-down-right" className="about_img">
             <img className="image" src={Image} alt="" />
             <img className="image2" src={Image1} alt="" />
           </div>
-          <div className="about_title">
+          <div data-aos="fade-down-left" className="about_title">
             <p>
               Eu facilisis duis pulvinar dui sapien vestibulum. Praesent sed
               ridiculus iaculis eget egestas blandit euismod. Ligula senectus

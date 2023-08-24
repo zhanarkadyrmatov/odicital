@@ -29,7 +29,7 @@ function WhyComponent() {
   return (
     <div id="why">
       <div className="container">
-        <div className="why_bg">
+        <div data-aos="zoom-out" className="why_bg">
           <h1 className="why_title">Почему мы?</h1>
           <p className="why_text">
             Habitant at sed tincidunt sapien. Purus maecenas risus mattis duis

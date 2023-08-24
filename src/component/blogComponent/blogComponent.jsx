@@ -19,7 +19,7 @@ function BlogComponent() {
         <div className="blog">
           {ITEMS.map((e) => {
             return (
-              <div key={e.id} className="blog_card">
+              <div data-aos="zoom-in" key={e.id} className="blog_card">
                 <img src={e.img} alt="" />
                 <h2>{e.title}</h2>
                 <a href="#">

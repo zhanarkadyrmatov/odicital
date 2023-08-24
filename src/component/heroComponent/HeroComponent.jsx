@@ -4,7 +4,7 @@ function HeroComponent() {
   return (
     <div id="hero">
       <div className="container">
-        <div className="hero">
+        <div data-aos="zoom-out" className="hero">
           <h1>Dui sapien aliquet aliquam </h1>
           <p>
             Quis fringilla convallis et vitae volutpat at porttitor. Est
