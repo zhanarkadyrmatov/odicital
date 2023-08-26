@@ -9,7 +9,6 @@ import MentorComponent from "../component/mentorComponent/mentorComponent";
 import SliderComponent from "../component/SliderComponent/sliderComponent";
 import FooterComponent from "../component/FooterComponent/footerComponent";
 import ClientComponent from "../component/ClientComponent/clientComponent";
-import WhatsappComponent from "../component/whatsappComponent/whatsappCpmponent";
 
 function page() {
   return (
@@ -25,7 +24,6 @@ function page() {
       <MentorComponent />
       <ClientComponent />
       <FooterComponent />
-      <WhatsappComponent />
     </div>
   );
 }
