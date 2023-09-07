@@ -14,7 +14,7 @@ function HeroComponent() {
           <button>Связаться с нами</button>
         </div>
       </div>
-      <div class="whatsapp-button">
+      {/* <div class="whatsapp-button">
         <a
           href="https://api.whatsapp.com/send?phone=79000000000"
           target="_blank"
@@ -42,7 +42,7 @@ function HeroComponent() {
             />
           </svg>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
